@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3839541441799213476}
   - component: {fileID: 7698817166360920115}
   - component: {fileID: 202952969417663907}
+  - component: {fileID: 7651118191994017317}
   m_Layer: 0
   m_Name: ProjectContext
   m_TagString: Untagged
@@ -74,3 +75,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c32187adc8275974e8a5cfbb9f6e9cf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7651118191994017317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2936080493673617788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 859101a549712e74180191ddeac2b06e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingScene: {fileID: 11400000, guid: 55ce7f819398cc84bb2dda867656ecc5, type: 2}
+  metaScene: {fileID: 11400000, guid: 40188eb5f9a0a24488cc5062e7046165, type: 2}
+  levelScenes:
+  - {fileID: 11400000, guid: 6df44241f30cca0469e733eb6ff2b346, type: 2}
